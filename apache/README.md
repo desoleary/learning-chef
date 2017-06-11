@@ -2,6 +2,14 @@
 
 `cd apache`
 
+Edit apache\.kitchen.yml
+
+`$ kitchen converge default-centos65`
+
+`$ kitchen login default-centos65`
+
+`rpm -q httpd` notice that it is created successfully
+
 # apache cookbook
 > This cookbook installs and configures a simple web site using the Apache HTTPD server.
 
