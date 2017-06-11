@@ -1,4 +1,4 @@
-`$ kitchen init --create-gemfile`
+Generated using `$ kitchen init --create-gemfile`
 
 `$ kitchen create default-centos65`
 
