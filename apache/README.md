@@ -10,6 +10,8 @@ Edit apache\.kitchen.yml
 
 `rpm -q httpd` notice that it is created successfully
 
+`chkconfig --list httpd | grep 3:on` check if service is turned on
+
 # apache cookbook
 > This cookbook installs and configures a simple web site using the Apache HTTPD server.
 

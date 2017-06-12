@@ -4,6 +4,8 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-package "httpd" do
-  action :install
+package 'httpd'
+
+service 'httpd' do
+  action [ :enable, :start ]
 end
