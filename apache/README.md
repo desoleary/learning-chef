@@ -12,6 +12,8 @@ Edit apache\.kitchen.yml
 
 `chkconfig --list httpd | grep 3:on` check if service is turned on
 
+`$ chef generate template index.html`
+
 # apache cookbook
 > This cookbook installs and configures a simple web site using the Apache HTTPD server.
 
